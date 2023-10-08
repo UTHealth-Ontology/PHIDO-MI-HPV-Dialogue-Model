@@ -1,6 +1,15 @@
 # PHIDO-MI-HPV-Dialogue-Model
 
 
+## Developers
+
+* Nicole Moore, DDS4
+School of Dentistry, University of Texas Health Science Center at Houston
+
+* Muhammad "Tuan" Amith, PhD
+University of Texas Medical Branch at Galveston
+
+## Contents
 * *section1.owl* - Introduction (Engage) : the provider agent engages the user participant with introduction and initiating the session.
 * *section2.owl* - Introduction (Vaccine Status): the provider agent inquires about the vaccine status of the user participant
 * *section3.owl* - Interview (Interest in the HPV Vaccine) : the provider agent gauges the user participant’s HPV vaccine perspective
