@@ -1,0 +1,1798 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://uth.tmc.edu/sbmi/ontology/phido"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://uth.tmc.edu/sbmi/ontology/phido">
+    <Prefix name="" IRI="http://uth.tmc.edu/sbmi/ontology/phido"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="phido" IRI="http://uth.tmc.edu/sbmi/ontology/phido#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">renamed to PHIDO (Patient Health Information Dialogue Ontology) and added Searle&apos;s classification.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">with discuss health topic and proposition task finalized</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">by Tuan Amith, Cui Tao</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Patient Health Information Dialogue Ontology (PHIDO)</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Condolences"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Question_Answering_Task"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Solicit_Expert_Authority"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Acclimate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Request"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Acknowledgement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Participant_Utterance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prattle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Apology_(System)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Goal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Satisfaction_Prompt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Discussion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#t_3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Confirmation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Introduce_Agenda"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reciprocal_Greet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System_Utterance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System_Farewell"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#belongsToSpeechTask"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Compassionate_Utterance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inquire_Personal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Positive_Utterance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#t_2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#State_Agenda"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Communicate_Effectiveness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vaccine_Counseling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Question_Options"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Participant_Introduction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Initiate_Discussion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Conclude"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interview_Participant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Communicate_Harms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Negative_Utterance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Finish_Task"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Topic_Transition"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#t_1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Salutation_Task"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Agenda"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#precedes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#utteranceLink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Communicate_Benefits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Happy_For"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tell_A_Joke"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System_Introduction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Utterance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Negative_Personal_Status"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#task"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Representative_Utterance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Directive_Utterance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Health_Information"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#follows"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clarification_Options"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Expressive_Utterance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#no_answer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Unintelligible"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Overview"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Discuss_Health_Topic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cap"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Exchange_Pleasantry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Confirm_Health_Information"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Assess_Participant_State"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Request_System"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Positive_Personal_Status"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System_Concluding_Farewell"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasGoals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Assertives_Utterance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Restate_Agenda"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Declaration_Utterance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Transition_to_Topic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Commissive_Utterance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Topic_Options"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasUtteranceExamples"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#divergent_question"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasUtterance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Acceptance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pursue_Before_Exit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Participant_Farewell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disclaimer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Question"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Capitulate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Option"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasUtterancePriority"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#acceptance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Communication_Goal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Request_Repeat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Communicate_Uncertainity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Valediction_Task"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Request_System_Repeat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System_Greet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Personal_Status"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Speech_Task"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Proposition_Task"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#No_Answer"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasBeenSaid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reciprocal_Farewell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Show_Care_For_Other"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Answer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disconfirmation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Task"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasUtteranceString"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inform"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Divergent_Question"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System_Declaration"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasFocus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interview_Question"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#speechSegue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSpeechTask"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Assertives_Utterance"/>
+        <Class IRI="#Representative_Utterance"/>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Acceptance"/>
+        <Class IRI="#Expressive_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Acceptance"/>
+        <Class IRI="#Participant_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Acceptance"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#follows"/>
+            <Class IRI="#Capitulate"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Acclimate"/>
+        <Class IRI="#Communication_Goal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Acknowledgement"/>
+        <Class IRI="#Expressive_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Acknowledgement"/>
+        <Class IRI="#System_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Acknowledgement"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#follows"/>
+            <Class IRI="#Confirmation"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Agenda"/>
+        <Class IRI="#Commissive_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Agenda"/>
+        <Class IRI="#System_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Agenda"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#follows"/>
+            <Class IRI="#Confirmation"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Answer"/>
+        <Class IRI="#Representative_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Answer"/>
+        <Class IRI="#System_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Answer"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#follows"/>
+            <ObjectUnionOf>
+                <Class IRI="#Divergent_Question"/>
+                <Class IRI="#Question"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assertives_Utterance"/>
+        <Class IRI="#Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assess_Participant_State"/>
+        <Class IRI="#Speech_Task"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assess_Participant_State"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasUtterance"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Condolences"/>
+                <Class IRI="#Happy_For"/>
+                <Class IRI="#Inquire_Personal"/>
+                <Class IRI="#Negative_Personal_Status"/>
+                <Class IRI="#Positive_Personal_Status"/>
+                <Class IRI="#Request_Repeat"/>
+                <Class IRI="#Unintelligible"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Capitulate"/>
+        <Class IRI="#Expressive_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Capitulate"/>
+        <Class IRI="#System_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Capitulate"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#follows"/>
+            <Class IRI="#Prattle"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Capitulate"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#follows"/>
+            <Class IRI="#Request_Repeat"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clarification_Options"/>
+        <Class IRI="#Directive_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clarification_Options"/>
+        <Class IRI="#Option"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clarification_Options"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#follows"/>
+            <Class IRI="#Disconfirmation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clarification_Options"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#precedes"/>
+            <Class IRI="#Question"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Commissive_Utterance"/>
+        <Class IRI="#Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Communicate_Benefits"/>
+        <Class IRI="#Communication_Goal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Communicate_Effectiveness"/>
+        <Class IRI="#Communication_Goal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Communicate_Harms"/>
+        <Class IRI="#Communication_Goal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Communicate_Uncertainity"/>
+        <Class IRI="#Communication_Goal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Communication_Goal"/>
+        <Class IRI="#Goal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Communication_Goal"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpeechTask"/>
+            <Class IRI="#Speech_Task"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Compassionate_Utterance"/>
+        <Class IRI="#System_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Conclude"/>
+        <Class IRI="#Communication_Goal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Condolences"/>
+        <Class IRI="#Compassionate_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Condolences"/>
+        <Class IRI="#Expressive_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Condolences"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#follows"/>
+            <Class IRI="#Negative_Personal_Status"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Confirm_Health_Information"/>
+        <Class IRI="#Directive_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Confirm_Health_Information"/>
+        <Class IRI="#System_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Confirm_Health_Information"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#precedes"/>
+            <ObjectUnionOf>
+                <Class IRI="#Confirmation"/>
+                <Class IRI="#Disconfirmation"/>
+                <Class IRI="#Question"/>
+                <Class IRI="#Request_System_Repeat"/>
+                <Class IRI="#Unintelligible"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Confirm_Health_Information"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#follows"/>
+            <Class IRI="#Health_Information"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Confirmation"/>
+        <Class IRI="#Positive_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Confirmation"/>
+        <Class IRI="#Representative_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Confirmation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#follows"/>
+            <ObjectUnionOf>
+                <Class IRI="#Request_Repeat"/>
+                <Class IRI="#System_Declaration"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Declaration_Utterance"/>
+        <Class IRI="#Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Directive_Utterance"/>
+        <Class IRI="#Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disclaimer"/>
+        <Class IRI="#Representative_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disclaimer"/>
+        <Class IRI="#System_Declaration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">TODO: add question pathway</Literal>
+        </Annotation>
+        <Class IRI="#Disclaimer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#precedes"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Confirmation"/>
+                <Class IRI="#Disconfirmation"/>
+                <Class IRI="#Unintelligible"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disconfirmation"/>
+        <Class IRI="#Negative_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disconfirmation"/>
+        <Class IRI="#Representative_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Discuss_Health_Topic"/>
+        <Class IRI="#Proposition_Task"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Discuss_Health_Topic"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasUtterance"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Acceptance"/>
+                <Class IRI="#Capitulate"/>
+                <Class IRI="#Confirm_Health_Information"/>
+                <Class IRI="#Confirmation"/>
+                <Class IRI="#Disconfirmation"/>
+                <Class IRI="#Health_Information"/>
+                <Class IRI="#Option"/>
+                <Class IRI="#Question"/>
+                <Class IRI="#Request_Repeat"/>
+                <Class IRI="#Request_System_Repeat"/>
+                <Class IRI="#Unintelligible"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Divergent_Question"/>
+        <Class IRI="#Question"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Divergent_Question"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#follows"/>
+            <ObjectUnionOf>
+                <Class IRI="#Request_Repeat"/>
+                <Class IRI="#System_Declaration"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exchange_Pleasantry"/>
+        <Class IRI="#Speech_Task"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Expressive_Utterance"/>
+        <Class IRI="#Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Finish_Task"/>
+        <Class IRI="#Task"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Happy_For"/>
+        <Class IRI="#Compassionate_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Happy_For"/>
+        <Class IRI="#Expressive_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Happy_For"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#follows"/>
+            <Class IRI="#Positive_Personal_Status"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Health_Information"/>
+        <Class IRI="#Representative_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Health_Information"/>
+        <Class IRI="#System_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Health_Information"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#precedes"/>
+            <Class IRI="#Confirm_Health_Information"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inform"/>
+        <Class IRI="#Representative_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inform"/>
+        <Class IRI="#System_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Initiate_Discussion"/>
+        <Class IRI="#Proposition_Task"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Initiate_Discussion"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasUtterance"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Confirmation"/>
+                <Class IRI="#Disclaimer"/>
+                <Class IRI="#Disconfirmation"/>
+                <Class IRI="#Overview"/>
+                <Class IRI="#Request_Repeat"/>
+                <Class IRI="#Topic_Options"/>
+                <Class IRI="#Unintelligible"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inquire_Personal"/>
+        <Class IRI="#Directive_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inquire_Personal"/>
+        <Class IRI="#System_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inquire_Personal"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#precedes"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Negative_Personal_Status"/>
+                <Class IRI="#Personal_Status"/>
+                <Class IRI="#Unintelligible"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interview_Participant"/>
+        <Class IRI="#Proposition_Task"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interview_Participant"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasUtterance"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Acknowledgement"/>
+                <Class IRI="#Confirmation"/>
+                <Class IRI="#Disconfirmation"/>
+                <Class IRI="#Interview_Question"/>
+                <Class IRI="#Request_Repeat"/>
+                <Class IRI="#Unintelligible"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interview_Question"/>
+        <Class IRI="#Directive_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interview_Question"/>
+        <Class IRI="#System_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interview_Question"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#precedes"/>
+            <ObjectUnionOf>
+                <Class IRI="#Confirmation"/>
+                <Class IRI="#Disconfirmation"/>
+                <Class IRI="#Unintelligible"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Introduce_Agenda"/>
+        <Class IRI="#State_Agenda"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Negative_Personal_Status"/>
+        <Class IRI="#Expressive_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Negative_Personal_Status"/>
+        <Class IRI="#Negative_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Negative_Personal_Status"/>
+        <Class IRI="#Personal_Status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Negative_Utterance"/>
+        <Class IRI="#Expressive_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Negative_Utterance"/>
+        <Class IRI="#Participant_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Negative_Utterance"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#follows"/>
+            <ObjectUnionOf>
+                <Class IRI="#Request_Repeat"/>
+                <Class IRI="#System_Declaration"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#No_Answer"/>
+        <Class IRI="#Answer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#No_Answer"/>
+        <Class IRI="#Representative_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Option"/>
+        <Class IRI="#System_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Overview"/>
+        <Class IRI="#Commissive_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Overview"/>
+        <Class IRI="#System_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Overview"/>
+        <ObjectIntersectionOf>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#follows"/>
+                <Class IRI="#Confirmation"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#precedes"/>
+                <Class IRI="#Topic_Options"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Participant_Farewell"/>
+        <Class IRI="#Expressive_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Participant_Farewell"/>
+        <Class IRI="#Participant_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Participant_Farewell"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#follows"/>
+            <Class IRI="#System_Concluding_Farewell"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Participant_Introduction"/>
+        <Class IRI="#Participant_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Participant_Introduction"/>
+        <Class IRI="#Representative_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Participant_Introduction"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#follows"/>
+            <Class IRI="#System_Introduction"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Participant_Utterance"/>
+        <Class IRI="#Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Personal_Status"/>
+        <Class IRI="#Participant_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Positive_Personal_Status"/>
+        <Class IRI="#Expressive_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Positive_Personal_Status"/>
+        <Class IRI="#Personal_Status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Positive_Personal_Status"/>
+        <Class IRI="#Positive_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Positive_Utterance"/>
+        <Class IRI="#Expressive_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Positive_Utterance"/>
+        <Class IRI="#Participant_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Positive_Utterance"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#follows"/>
+            <ObjectUnionOf>
+                <Class IRI="#Request_Repeat"/>
+                <Class IRI="#System_Declaration"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prattle"/>
+        <Class IRI="#Participant_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prattle"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#follows"/>
+            <Class IRI="#Clarification_Options"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Proposition_Task"/>
+        <Class IRI="#Speech_Task"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Proposition_Task"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasUtterance"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Divergent_Question"/>
+                <Class IRI="#Negative_Utterance"/>
+                <Class IRI="#Positive_Utterance"/>
+                <Class IRI="#Request_Repeat"/>
+                <Class IRI="#System_Declaration"/>
+                <Class IRI="#Unintelligible"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pursue_Before_Exit"/>
+        <Class IRI="#Communication_Goal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Question"/>
+        <Class IRI="#Directive_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Question"/>
+        <Class IRI="#Participant_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Question"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#precedes"/>
+            <ObjectUnionOf>
+                <Class IRI="#Answer"/>
+                <Class IRI="#No_Answer"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Question_Answering_Task"/>
+        <Class IRI="#Speech_Task"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Question_Answering_Task"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasUtterance"/>
+            <ObjectUnionOf>
+                <Class IRI="#Answer"/>
+                <Class IRI="#Disconfirmation"/>
+                <Class IRI="#Option"/>
+                <Class IRI="#Question"/>
+                <Class IRI="#Apology_(System)"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Question_Options"/>
+        <Class IRI="#Directive_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Question_Options"/>
+        <Class IRI="#Option"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Question_Options"/>
+        <ObjectIntersectionOf>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#follows"/>
+                <ObjectUnionOf>
+                    <Class IRI="#Answer"/>
+                    <Class IRI="#No_Answer"/>
+                </ObjectUnionOf>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#precedes"/>
+                <ObjectUnionOf>
+                    <Class IRI="#Disconfirmation"/>
+                    <Class IRI="#Question"/>
+                </ObjectUnionOf>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reciprocal_Farewell"/>
+        <Class IRI="#Expressive_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reciprocal_Farewell"/>
+        <Class IRI="#Participant_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reciprocal_Farewell"/>
+        <ObjectIntersectionOf>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#follows"/>
+                <Class IRI="#System_Farewell"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#precedes"/>
+                <Class IRI="#System_Concluding_Farewell"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reciprocal_Greet"/>
+        <Class IRI="#Expressive_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reciprocal_Greet"/>
+        <Class IRI="#Participant_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reciprocal_Greet"/>
+        <ObjectIntersectionOf>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#follows"/>
+                <Class IRI="#System_Greet"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#precedes"/>
+                <Class IRI="#System_Introduction"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Representative_Utterance"/>
+        <Class IRI="#Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Request"/>
+        <Class IRI="#Directive_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Request"/>
+        <Class IRI="#System_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Request_Repeat"/>
+        <Class IRI="#Directive_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Request_Repeat"/>
+        <Class IRI="#Request"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">for discuss health topic</Literal>
+        </Annotation>
+        <Class IRI="#Request_Repeat"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#precedes"/>
+            <ObjectUnionOf>
+                <Class IRI="#Confirmation"/>
+                <Class IRI="#Disconfirmation"/>
+                <Class IRI="#Question"/>
+                <Class IRI="#Request_System_Repeat"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">proposition task</Literal>
+        </Annotation>
+        <Class IRI="#Request_Repeat"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#precedes"/>
+            <ObjectUnionOf>
+                <Class IRI="#Divergent_Question"/>
+                <Class IRI="#Negative_Utterance"/>
+                <Class IRI="#Positive_Utterance"/>
+                <Class IRI="#Unintelligible"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Request_Repeat"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#follows"/>
+            <Class IRI="#Unintelligible"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Request_System"/>
+        <Class IRI="#Directive_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Request_System"/>
+        <Class IRI="#Participant_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Request_System_Repeat"/>
+        <Class IRI="#Request_System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Request_System_Repeat"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#precedes"/>
+            <Class IRI="#Health_Information"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Restate_Agenda"/>
+        <Class IRI="#State_Agenda"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Salutation_Task"/>
+        <Class IRI="#Exchange_Pleasantry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Salutation_Task"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasUtterance"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Capitulate"/>
+                <Class IRI="#Participant_Introduction"/>
+                <Class IRI="#Reciprocal_Greet"/>
+                <Class IRI="#Request_Repeat"/>
+                <Class IRI="#System_Greet"/>
+                <Class IRI="#System_Introduction"/>
+                <Class IRI="#Unintelligible"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Satisfaction_Prompt"/>
+        <Class IRI="#Directive_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Satisfaction_Prompt"/>
+        <Class IRI="#System_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Show_Care_For_Other"/>
+        <Class IRI="#Speech_Task"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Solicit_Expert_Authority"/>
+        <Class IRI="#Speech_Task"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Speech_Task"/>
+        <Class IRI="#Task"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#State_Agenda"/>
+        <Class IRI="#Speech_Task"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#System_Concluding_Farewell"/>
+        <Class IRI="#System_Farewell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#System_Concluding_Farewell"/>
+        <ObjectIntersectionOf>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#follows"/>
+                <Class IRI="#Reciprocal_Farewell"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#precedes"/>
+                <Class IRI="#Participant_Farewell"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#System_Declaration"/>
+        <Class IRI="#Declaration_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#System_Declaration"/>
+        <Class IRI="#System_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#System_Farewell"/>
+        <Class IRI="#Expressive_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#System_Farewell"/>
+        <Class IRI="#System_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#System_Farewell"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#precedes"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Reciprocal_Farewell"/>
+                <Class IRI="#Unintelligible"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#System_Greet"/>
+        <Class IRI="#Expressive_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#System_Greet"/>
+        <Class IRI="#System_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#System_Greet"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#precedes"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Reciprocal_Greet"/>
+                <Class IRI="#Unintelligible"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#System_Introduction"/>
+        <Class IRI="#Representative_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#System_Introduction"/>
+        <Class IRI="#System_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#System_Introduction"/>
+        <ObjectIntersectionOf>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#follows"/>
+                <Class IRI="#Reciprocal_Greet"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#precedes"/>
+                <Class IRI="#Participant_Introduction"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#System_Utterance"/>
+        <Class IRI="#Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tell_A_Joke"/>
+        <Class IRI="#Speech_Task"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Topic_Options"/>
+        <Class IRI="#Directive_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Topic_Options"/>
+        <Class IRI="#Option"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Topic_Options"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#follows"/>
+            <Class IRI="#Overview"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Topic_Transition"/>
+        <Class IRI="#Commissive_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Topic_Transition"/>
+        <Class IRI="#System_Declaration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Topic_Transition"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#precedes"/>
+            <ObjectUnionOf>
+                <Class IRI="#Confirmation"/>
+                <Class IRI="#Disconfirmation"/>
+                <Class IRI="#Unintelligible"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transition_to_Topic"/>
+        <Class IRI="#Proposition_Task"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transition_to_Topic"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasUtterance"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Agenda"/>
+                <Class IRI="#Confirmation"/>
+                <Class IRI="#Disconfirmation"/>
+                <Class IRI="#Request_Repeat"/>
+                <Class IRI="#Topic_Transition"/>
+                <Class IRI="#Unintelligible"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Unintelligible"/>
+        <Class IRI="#Participant_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Unintelligible"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#follows"/>
+            <Class IRI="#System_Declaration"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Unintelligible"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#precedes"/>
+            <Class IRI="#Request_Repeat"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vaccine_Counseling"/>
+        <Class IRI="#Discussion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Valediction_Task"/>
+        <Class IRI="#Exchange_Pleasantry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Valediction_Task"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasUtterance"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Capitulate"/>
+                <Class IRI="#Participant_Farewell"/>
+                <Class IRI="#Reciprocal_Farewell"/>
+                <Class IRI="#Request_Repeat"/>
+                <Class IRI="#System_Concluding_Farewell"/>
+                <Class IRI="#System_Farewell"/>
+                <Class IRI="#Unintelligible"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Apology_(System)"/>
+        <Class IRI="#Expressive_Utterance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Apology_(System)"/>
+        <Class IRI="#System_Utterance"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Acceptance"/>
+        <NamedIndividual IRI="#acceptance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Capitulate"/>
+        <NamedIndividual IRI="#cap"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Question"/>
+        <NamedIndividual IRI="#divergent_question"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Unintelligible"/>
+        <NamedIndividual IRI="#t_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Request_Repeat"/>
+        <NamedIndividual IRI="#t_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positive_Utterance"/>
+        <NamedIndividual IRI="#t_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speech_Task"/>
+        <NamedIndividual IRI="#task"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#follows"/>
+        <NamedIndividual IRI="#acceptance"/>
+        <NamedIndividual IRI="#cap"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#follows"/>
+        <NamedIndividual IRI="#no_answer"/>
+        <NamedIndividual IRI="#divergent_question"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#follows"/>
+        <NamedIndividual IRI="#t_2"/>
+        <NamedIndividual IRI="#t_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#follows"/>
+        <NamedIndividual IRI="#t_3"/>
+        <NamedIndividual IRI="#t_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasUtterance"/>
+        <NamedIndividual IRI="#task"/>
+        <NamedIndividual IRI="#t_3"/>
+    </ObjectPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#belongsToSpeechTask"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#follows"/>
+        <ObjectProperty IRI="#utteranceLink"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#precedes"/>
+        <ObjectProperty IRI="#utteranceLink"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#speechSegue"/>
+        <ObjectProperty IRI="#utteranceLink"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#belongsToSpeechTask"/>
+        <ObjectProperty IRI="#hasUtterance"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#follows"/>
+        <ObjectProperty IRI="#precedes"/>
+    </InverseObjectProperties>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#utteranceLink"/>
+    </SymmetricObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#belongsToSpeechTask"/>
+        <Class IRI="#Utterance"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasGoals"/>
+        <Class IRI="#Discussion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSpeechTask"/>
+        <Class IRI="#Communication_Goal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasUtterance"/>
+        <Class IRI="#Speech_Task"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#speechSegue"/>
+        <Class IRI="#Utterance"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#utteranceLink"/>
+        <Class IRI="#Utterance"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#belongsToSpeechTask"/>
+        <Class IRI="#Speech_Task"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasGoals"/>
+        <Class IRI="#Communication_Goal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSpeechTask"/>
+        <Class IRI="#Speech_Task"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasUtterance"/>
+        <Class IRI="#Utterance"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#speechSegue"/>
+        <Class IRI="#Speech_Task"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#utteranceLink"/>
+        <Class IRI="#Utterance"/>
+    </ObjectPropertyRange>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasBeenSaid"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasFocus"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasUtterancePriority"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasBeenSaid"/>
+        <Class IRI="#Utterance"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasUtteranceExamples"/>
+        <Class IRI="#Participant_Utterance"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasUtterancePriority"/>
+        <Class IRI="#Utterance"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasUtteranceString"/>
+        <Class IRI="#Utterance"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasBeenSaid"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasFocus"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasUtteranceExamples"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasUtterancePriority"/>
+        <Datatype abbreviatedIRI="xsd:long"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasUtteranceString"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Acknowledgement</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">TODO: add some transition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Agenda</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">TODO: add a follow for this class</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Assertives_Utterance</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;committing the speaker to the something&apos;s being the case&quot; (suggesting, putting forward, swearing, boasting, concluding)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Assertives_Utterance</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Assertive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Assess_Participant_State</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">gather information about the participant (how much they know about the discussion topic, personal information, etc.)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Capitulate</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Example: &quot;Well I am not suire if I can help you...&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Capitulate</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">TODO: add bridge to farewell when used in Salutation task to Farewell or to end</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Commissive_Utterance</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Example: promising</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Commissive_Utterance</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;Commit the speaker to a course of action&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Commissive_Utterance</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Commissive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Compassionate_Utterance</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">rename to &quot;Empathic Utterances&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Declaration_Utterance</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Example: declaring war</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Declaration_Utterance</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;Effect some changes in an institutional state of affairs&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Declaration_Utterance</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Declaration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Directive_Utterance</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Example: requesting</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Directive_Utterance</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;A directive is an attemplt on the part of the speaker to get the hearer to do something&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Directive_Utterance</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Directive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Disconfirmation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">TODO: add transition to Pursuit (Goal) or to Task</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Discuss_Health_Topic</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">involving communicating health information to patients and health consumers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Expressive_Utterance</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Example: thanking</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Expressive_Utterance</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;Express some pyschological state (gratitude, for example.)&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Expressive_Utterance</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Expressive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Health_Information</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">utterance involving stating a peice of health information to an individual patient or consumer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Initiate_Discussion</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">to give some cautionary information or disclaimer to the health consumer or patient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Inquire_Personal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">rename &quot;Personal Inquiry&quot;?</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Interview_Participant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">probing to assess and get to know the participant. Information should be collected for contextual data</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Participant_Introduction</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">TODO: add bridge after salutation task to next task</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Participant_Introduction</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">participant introductory utterance: &quot;My name is...&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Personal_Status</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">participant stating their personal status</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Prattle</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">utterance that is of no singificance to agent; ignored by the agent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pursue_Before_Exit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pursuit objective (see Opal). Goal is to pursue patient before premature exit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Representative_Utterance</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Example: informing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Representative_Utterance</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">aka &quot;Assertive&quot; NLP by Juransky</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Representative_Utterance</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;A representative act commits the speaker to the truth of an expressed proposition&quot; like informing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Representative_Utterance</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Representative</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Solicit_Expert_Authority</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Example: for telling participant to seek expert advice</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Speech_Task</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an speech act that supports a communication goal(s)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Speech_Task</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">each speech task is instantiated to communicate one talking point</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>#State_Agenda</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">not needed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System_Concluding_Farewell</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Concluding Farewell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#System_Introduction</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">system introduces itself by name &quot;My name is..&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Task</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">It is a physical activity that supports a goal(s)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Topic_Options</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">TODO: add some transition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Transition_to_Topic</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">TODO: need to add transition to Pursuit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasUtteranceExamples</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">samples of participant utterances to help decode what type of participant utterance was spoken</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasUtterancePriority</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">partially inspired by other dialogue system to arrange the order of importance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasUtteranceString</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">textual utterance; might have more than one</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Apology_(System)</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Apology</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
